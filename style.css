@@ -1,0 +1,371 @@
+img {
+    max-width:100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#0E204E;
+}
+
+ /* nav dt start */
+
+ul {
+    list-style: none;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+.logo {
+    color: #0E204E;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li a {
+    color:#232323 ;
+    font-family: 'Manrope', sans-serif;
+    color: #232323;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.button {
+    background-color: navy;
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.block {
+    display: block;
+}
+
+/* nav dt end */
+
+/* mobile nav start */
+
+.mobile-nav {
+    font-family: 'Playfair Display', serif;
+    display: none
+}
+
+.mobile-nav-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* mobile nav end */
+
+
+.white-text {
+    color: white;
+    background-color: #0E204E;
+}
+
+.bg-navy {
+    background-color: #0E204E;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+/* change font to playfair after sections complete */
+h1, h2, h3, h4, h6 {
+    font-family:'Playfair Display', serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+}
+
+
+/* this is Pineaaple top after nav bar */
+.title {
+    color: white;
+    display: flex;
+}
+/* this is for text and picture */
+.title div {
+    width: 50%;
+}
+
+
+.title .bg-navy {
+    margin: 30px 0px;
+    padding: 20px;
+}
+
+.title .first-text {
+    padding: 20px;
+    width: 75%;
+    
+    overflow-wrap: break-word;
+    font-size: 2vw;
+       
+}
+
+
+/* .h1font-weight {
+   font-weight: ;
+} */
+
+.mobile-title {
+    display: none;
+    position: relative;
+}
+
+.mobile-title-text {
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.mobile-title-text h1 {
+    background-color: transparent;
+    font-size:26px;
+}
+
+.mobile-title-img {
+    /* position: absolute; */
+    width: 100%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.mobile-title-img img {
+    width: 100%;
+}
+
+/* mobile title end */
+
+/* about pinapple, and why choose here start, */
+/* added amazing features and become an agent */
+.wrapper {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+/* about pineapple and why choose here end */
+
+/* About Pineapple Island */
+
+/* .second-section {
+    display: flex;
+    border-style: dashed;
+    
+} */
+
+.section-two {
+    border-style: dashed;
+    
+}
+
+.section-two img {
+    width:100%;
+}
+
+/* what pineapple land offers */
+
+.text-sec-four {
+    text-align: center;
+}
+
+.img-icon-sec {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img-icon-left, .iconic-container {
+    width: 50%;
+}
+
+.img-icon-left img {
+    width: 100%;
+    display: block;
+}
+
+.iconic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon-row-dt-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+.icon-row-dt-1 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-row-dt-1 img {
+    width: 45px;
+}
+
+/* what pineapple land offers ends */
+
+/* gallery imgs for dt */
+
+.desktop-gal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.row-dt-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop-gal img {
+    width: calc(33% - 10px);
+    margin: 5px;
+}
+
+.mobile-gal {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mg-row1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.mg-row1 img {
+    width: 25%;
+    height: auto;
+}
+
+.mg-row2 {
+    display: flex;
+}
+
+.mg-row3 {
+    display: flex;
+}
+
+.mg-row4 {
+    display: flex;
+}
+
+.mg-row5 {
+    display: flex;
+}
+
+.text-sec-five {
+    text-align: center;
+}
+
+
+.list-fade li:nth-child(odd) {
+    background-color: rgba(14, 63, 51, 0.20);
+  }
+
+/* wrapper 3 goes here */
+.wrapper3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    /* Desktop nav turns off mobile nav turns on */
+        
+    /* nav */
+    .mobile-nav {
+        display: block;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    /* title */
+
+    .mobile-title {
+        display: block;
+    }
+
+    .title {
+        display: none;
+    }
+
+    /* gallery */
+    .mobile-gal {
+        display: block;
+    }
+
+    .desktop-gal {
+        display: none;
+    }
+
+    /* footer */
+ }
+  
+
+/* for media you might wanna try max-width 400px(what phones do people use) */
